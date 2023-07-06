@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-part{
+    background-color: #313131;
+    
+}
+.nav-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.menu-part{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.menu-part li{
+    list-style: none;
+
+}
+.menu-part li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.logo{
+    width: 150px;
+}
+.banner{
+    background-image: url(../images/background.png),linear-gradient(45deg, rgb(11, 11, 11),rgb(34, 34, 34));
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.banner-details{
+    color: white;
+    
+}
+.banner-heading{
+    font-size: 60px;
+}
+.banner-description{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: red;
+    border:none;
+    color: white;
+    padding: 15px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #52505000;
+    border: 2px solid white;
+    transition: 0.8s;
+    
+}
+.banner-img{
+    width: 300px;
+}
+/* about sytle */
+.about{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.section-title{
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+hr{
+    text-align: center;
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+}
+.section-ing{
+    width: 350px;
+}
+.section-title{
+    font-size: 50px;
+}
+.sec-title{
+    font-size: 40px;
+}
+.summary{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sec-btn:hover{
+    color: black;
+    border-color: black;
+}
+.sec-description{
+    padding-bottom: 20px;
+}
+/* services style */
+.sec-service{
+    background-image: url(../images/background.png),linear-gradient(45deg, #070707 , #373636);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+.box-img{
+    width: 80px;
+    margin-bottom: 15px;
+}
+.ser-box-sec{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 100px;
+    align-items: center;
+}
+.box{
+    width: 250px;
+    height: 350;
+    background-color: #0000000f;
+    padding: 20px;
+    box-shadow:5px 2px 60px 5px rgb(96, 95, 95);
+    border-radius: 10px;
+}
+.box-heading{
+font-size: 22px;
+}
+.box-description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box-btn{
+    width: 100px;
+    border-radius: 5px;
+}
+footer{
+    height: 50vh;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.footer-part{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+.footer-box{
+    width: 25%px;
+}
+.footer-img{
+    width: 200px;
+}
+.footer-title{
+    margin-bottom: 20px ;
+}
+.footer-hr{
+   margin-top: 50px;
+}
+.footer-descripton{
+    line-height: 25px;
+}
+.footer-descripton li{
+    list-style: none;
+    font-size: 18px;
+}
+.copyright{
+    margin-top: 20px;
+    text-align: center;
+}
